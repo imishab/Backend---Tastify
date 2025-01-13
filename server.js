@@ -10,7 +10,7 @@ dotenv.config();
 const app = express();
 
 // Middleware
-const allowedOrigins = ['http://localhost:3000', 'http://localhost:8081'];
+const allowedOrigins = ['http://localhost:3000', 'http://localhost:8081', 'https://admin-tastify.vercel.app'];
 const corsOptions = {
     origin: (origin, callback) => {
         if (allowedOrigins.includes(origin) || !origin) {
