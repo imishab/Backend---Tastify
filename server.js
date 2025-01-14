@@ -16,7 +16,7 @@ const allowedOrigins = [
     'https://admin-tastify.vercel.app',
     'http://192.168.29.75:3000',
     'https://57fzj03p-3000.inc1.devtunnels.ms',
-    'https://frontend-tastify.vercel.app/'
+    'https://frontend-tastify.vercel.app'
 ];
 const corsOptions = {
     origin: (origin, callback) => {
